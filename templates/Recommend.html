@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommender System - Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Recommend.css') }}">
+
+</head>
+<body>
+    <h1>Recommender System - Results</h1>
+    
+    <h2>Recommendations</h2>
+    <table>
+        <thead>
+            <tr>
+									
+
+                <th>School Name</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Ranking</th>
+                <th>Mode</th>
+                <th>Total_Tuition_Cost</th>
+                <th>Program_Years_Full_Time</th>
+                <th>Minimum Undergraduate GPA</th>
+                <th>Median Salary after 10 years</th>
+                <th>GRE</th>
+                <th>Institution Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for recommendation in recommendations %}
+            <tr>
+                <td><a href="{{ recommendation[11] }}">{{ recommendation[0] }}</a></td>
+                <td>{{ recommendation[1] }}</td>
+                <td>{{ recommendation[2] }}</td>
+                <td>{{ recommendation[3] }}</td>
+                <td>{{ recommendation[4] }}</td>
+                <td>{{ recommendation[5] }}</td>
+                <td>{{ recommendation[6] }}</td>
+                <td>{{ recommendation[7] }}</td>
+                <td>{{ recommendation[8] }}</td>
+                <td>{{ recommendation[9] }}</td>
+                <td>{{ recommendation[10] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

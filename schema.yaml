@@ -1,0 +1,16 @@
+COLUMNS:
+  School Name            :     object
+  State                  :     object
+  City                   :     object
+  Ranking                :      int64
+  Online                 :     object
+  Total_Tuition_Cost     :      int64
+  Program_Years_Full_Time:    float64
+  Min_Undergraduate_GPA  :    float64
+  Median_Salary_10yr     :      int64
+  Need_GRE               :     object
+  Institution Type       :     object
+  LINK                   :     object
+
+TARGET_COLUMN:
+  name : School Name

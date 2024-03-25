@@ -1,0 +1,115 @@
+School Name,State,City,Ranking,Online,Total_Tuition_Cost,Program_Years_Full_Time,Min_Undergraduate_GPA,Median_Salary_10yr,Need_GRE,Institution Type,LINK
+Columbia University,NY,New York City,5,Offline,68160,1.0,3.7,132100,Not Needed,Private,NA
+University of Texas-Austin,TX,Austin,45,Online,10000,2.0,3.0,115600,Needed,Public,NA
+University of Southern California,CA,Los Angeles,17,Offline,47880,1.5,3.5,126300,Not Needed,Private,http://www.marshall.usc.edu
+University of Miami,FL,Miami,87,Offline,66390,1.5,3.0,101000,Not Needed,Private,http://www.bus.miami.edu
+Syracuse University,NY,Syracuse,113,Online,58956,1.5,3.0,109100,Not Needed,Private,https://requestinfo.onlinebusiness.syr.edu
+University of Colorado-Boulder,CO,Boulder,126,Offline,42960,1.0,3.2,114600,Not Needed,Public,NA
+University of Colorado-Boulder,CO,Boulder,126,Online,20010,1.0,3.2,114600,Not Needed,Public,NA
+University of Arizona,AZ,Tucson,127,Offline,53820,1.5,3.0,102100,Not Needed,Public,http://grad.arizona.edu
+University of Pennsylvania,PA,Philadelphia,9,Offline,73280,1.5,3.7,142900,Needed,Private,NA
+University of California-Berkeley,CA,Berkeley,1,Online,73224,1.0,3.0,138800,Not Needed,Public,http://datascience.berkeley.edu
+Yale University,NH,New Haven,2,Offline,68550,1.5,3.8,141300,Not Needed,Private,NA
+Indiana University-Bloomington,IN,Bloomington,90,Offline,50184,1.5,3.0,99500,Not Needed,Public,NA
+Indiana University-Bloomington,IN,Bloomington,90,Online,24825,1.5,3.0,99500,Not Needed,Public,NA
+Michigan State University,MI,East Lansing,93,Offline,39000,2.0,3.0,101400,Not Needed,Public,http://broad.msu.edu
+University of Connecticut,CT,Storrs,70,Online,39000,1.5,3.0,105200,Not Needed,Public,http://msbapm.business.uconn.edu
+University of Utah,UT,Salt Lake City,95,Offline,36633,1.5,3.0,104700,Not Needed,Public,NA
+Stanford University,CA,Stanford,4,Offline,54315,1.0,3.7,147100,Needed,Private,http://scpd.stanford.edu
+Harvard University,MA,Cambridge,7,Offline,87336,1.5,3.7,147700,Not Needed,Private,http://www.extension.harvard.edu
+University of California-Los Angeles,CA,Los Angeles,8,Online,37800,2.0,3.0,122400,Needed,Public,NA
+Northwestern University,IL,Evanston,10,Online,57468,1.0,3.4,120300,Not Needed,Private,http://sps.northwestern.edu
+Duke University,NC,Durham,12,Offline,120440,2.0,3.5,135000,Not Needed,Private,http://www.fuqua.duke.edu
+Cornell University,NY,Ithaca,13,Offline,60286,1.0,3.7,133100,Needed,Private,http://stat.cornell.edu
+Vanderbilt University,TN,Nashville,14,Offline,103200,2.0,3.5,122400,Not Needed,Private,NA
+University of California-San Diego,CA,San Diego,15,Online,27400,1.5,3.0,128900,Not Needed,Public,http://extension.ucsd.edu
+University of California-San Diego,CA,San Diego,15,Offline,48883,1.5,3.0,128900,Not Needed,Public,http://extension.ucsd.edu
+University of California-Davis,CA,Davis,20,Offline,38280,1.5,3.0,119900,Needed,Public,http://gsm.ucdavis.edu
+University of Michigan,MI,Ann Arbor,22,Offline,75204,1.5,3.0,112300,Not Needed,Public,NA
+Rice University,TX,Houston,24,Online,51668,1.5,3.0,134100,Not Needed,Private,NA
+Rice University,TX,Houston,24,Offline,77250,1.5,3.0,134100,Not Needed,Private,NA
+Brown University,RI,Providence,26,Offline,80527,1.0,3.5,136700,Needed,Private,NA
+University of Washington,WA,Seattle,27,Offline,48825,1.5,3.0,115400,Not Needed,Public,NA
+University of North Carolina-Chapel Hill,NC,Chapel Hill,28,Offline,46298,1.5,3.7,99900,Needed,Public,NA
+University of Virginia,VA,Charlottesville,30,Offline,51242,1.0,3.4,125200,Not Needed,Public,https://www.commerce.virginia.edu
+Emory University,GA,Atlanta,35,Offline,33600,1.5,3.3,116900,Needed,Private,NA
+John's Hopkins University,MD,Baltimore,37,Online,47550,1.5,3.0,117300,Not Needed,Private,NA
+Tufts University,MA,Medford,38,Offline,54304,1.0,3.2,124800,Not Needed,Private,NA
+University of Notre Dame,IN,Notre Dame,41,Online,54000,2.0,3.0,136900,Not Needed,Private,http://acms.nd.edu
+University of Maryland-College Park,MD,College Park,42,Offline,38000,1.5,3.0,112800,Not Needed,Public,http://ischool.umd.edu
+University of California-Irvine,CA,Irvine,47,Offline,39816,1.5,3.0,125900,Needed,Public,http://unex.uci.edu
+Carnagie Mellon University,PA,Pittsburgh,49,Offline,100656,1.5,3.4,136500,Needed,Private,NA
+Texas A&M,TX,College Station,50,Offline,39552,1.5,3.0,119000,Not Needed,Public,NA
+University of Wisconsin-Madison,WI,Madison,59,Offline,48700,1.0,3.0,105000,Not Needed,Public,https://advanceyourcareer.wisc.edu
+Stony Brook University-SUNY,NY,Stony Brook,62,Offline,14601,1.5,3.0,111000,Not Needed,Public,NA
+Lehigh University,PA,Bethlehem,65,Offline,45000,1.0,2.75,139800,Needed,Private,NA
+San Diego State University,CA,San Diego,66,Offline,21512,1.0,3.0,104700,Needed,Public,NA
+Santa Clara University,CA,Santa Clara,71,Online,55356,1.0,3.5,146300,Needed,Private,https://www.scu.edu
+Santa Clara University,CA,Santa Clara,71,Offline,55356,1.0,3.5,146300,Needed,Private,https://www.scu.edu
+Northeastern University,MA,Boston,76,Offline,54080,1.5,3.0,109700,Not Needed,Private,http://www.northeastern.edu
+University of Rochester,NY,Rochester,78,Offline,54540,1.0,3.2,116000,Not Needed,Private,http://www.simon.rochester.edu
+New York University,NY,New York City,80,Offline,71964,2.0,3.7,124700,Needed,Private,https://www.sps.nyu.edu
+University of Minnesota-Twin Cities,MN,Minneapolis,84,Offline,26350,2.0,3.5,105700,Not Needed,Public,http://carlsonschool.umn.edu
+Florida State University,FL,Tallahassee,94,Offline,33322,1.5,3.0,96100,Not Needed,Public,NA
+Southern Methodist University,TX,University Park,102,Online,57084,1.5,3.0,117700,Not Needed,Private,http://datascience.smu.edu
+Clemson University,SC,Clemson,107,Online,37920,1.5,3.0,107000,Not Needed,Public,NA
+University of Delaware,DE,Newark,108,Offline,31350,1.0,3.0,108800,Not Needed,Public,NA
+San Jose State University,CA,San Jose,109,Offline,51400,2.0,3.0,115900,Needed,Public,http://www.sjsu.edu
+University at Buffalo-SUNY,NY,Buffalo,111,Offline,46170,1.0,3.0,97800,Not Needed,Public,NA
+University of Maryland-Baltimore Coutry,MD,Baltimore,112,Offline,34980,1.5,3.0,105200,Not Needed,Public,NA
+Syracuse University,NY,Syracuse,113,Offline,58956,1.5,3.0,109100,Not Needed,Private,https://requestinfo.onlinebusiness.syr.edu
+San Francisco State University,CA,San Francisco,117,Offline,45840,1.5,3.0,100800,Not Needed,Public,NA
+Arizona State University,AZ,Tempe,121,Online,15000,1.0,3.0,101700,Not Needed,Public,https://programs.wpcarey.asu.edu
+University of Oklahoma,OK,Norman,125,Offline,32500,1.5,3.0,100900,Not Needed,Public,NA
+University of Oklahoma,OK,Norman,125,Online,32500,1.5,3.0,100900,Not Needed,Public,NA
+Marquette University,WI,Milwaukee,131,Offline,39765,2.0,3.0,108700,Not Needed,Private,NA
+Drexel University,PA,Philadelphia,133,Offline,60975,1.5,3.0,113600,Not Needed,Private,http://catalog.drexel.edu
+Drexel University,PA,Philadelphia,133,Online,60975,1.5,3.0,113600,Not Needed,Private,http://catalog.drexel.edu
+Worcester Polytechnic Institute,MA,Worcester,135,Offline,48300,1.5,3.0,135500,Not Needed,Private,http://www.wpi.edu
+Worcester Polytechnic Institute,MA,Worcester,135,Online,48300,1.5,3.0,135500,Not Needed,Private,http://www.wpi.edu
+Universtiy of Central Florida,FL,Orlando,138,Offline,42986,1.5,3.0,90100,Needed,Public,NA
+University of Missouri-Columbia,MO,Columbia,142,Offline,38597,2.0,3.0,101400,Not Needed,Public,http://dsa.missouri.edu
+University of Missouri-Columbia,MO,Columbia,142,Online,39766,2.0,3.0,101400,Not Needed,Public,http://dsa.missouri.edu
+Florida International Universtiy,FL,Miami,145,Offline,30828,1.5,3.0,91700,Needed,Public,NA
+American University,DC,Washington,149,Offline,55980,1.5,3.0,109600,Not Needed,Private,https://onlinebusiness.american.edu
+Auburn University,AL,Auburn,150,Offline,75990,1.5,2.75,105400,Needed,Public,http://harbert.auburn.edu
+Auburn University,AL,Auburn,150,Online,28470,1.5,2.75,105400,Needed,Public,http://harbert.auburn.edu
+Stevens Institute of Technology,NJ,Hoboken,158,Offline,48372,1.5,3.0,144300,Needed,Private,https://www.stevens.edu
+Stevens Institute of Technology,NJ,Hoboken,158,Online,48372,1.5,3.0,144300,Needed,Private,https://www.stevens.edu
+Texas Tech University,TX,Lubbock,163,Offline,24348,1.0,3.0,106300,Not Needed,Public,https://www.depts.ttu.edu
+Texas Tech University,TX,Lubbock,163,Online,24348,1.0,3.0,106300,Not Needed,Public,https://www.depts.ttu.edu
+University of Vermont,VT,Burlington,164,Offline,51600,1.5,3.0,101900,Not Needed,Public,NA
+University of Denver,CO,Denver,165,Offline,47916,1.5,2.5,107300,Not Needed,Private,http://daniels.du.edu
+University of Denver,CO,Denver,165,Online,47916,1.5,2.5,107300,Not Needed,Private,http://daniels.du.edu
+University of the Pacific,CA,Stockton,166,Offline,49120,2.0,2.65,112100,Not Needed,Private,http://www.pacific.edu
+Michigan Technological University,MI,Houghton,167,Offline,40290,1.5,2.85,114700,Not Needed,Public,NA
+Fordham University,NY,New York City,168,Offline,41400,1.5,3.0,118200,Not Needed,Private,http://www.bnet.fordham.edu
+University of San Francisco,CA,San Francisco,169,Offline,54425,1.5,3.0,114400,Needed,Private,http://www.usfca.edu
+Rochester Institute of Technology,NY,Rochester,178,Offline,52092,1.0,3.0,105200,Not Needed,Private,https://www.rit.edu
+Rochester Institute of Technology,NY,Rochester,178,Online,37110,1.0,3.0,105200,Not Needed,Private,https://www.rit.edu
+University at Albany-SUNY,NY,Albany,187,Offline,21194,1.5,3.0,106000,Not Needed,Public,NA
+University of Kansas,KS,Lawrence,188,Online,21000,1.5,3.0,100800,Not Needed,Public,http://www.business.ku.edu
+New Jersey Institute of Technology,NJ,Newark,189,Offline,50010,2.0,3.0,124400,Needed,Public,http://adultlearner.njit.edu
+Florida Atlantic University,FL,Boca Raton,192,Offline,27825,1.5,3.0,92100,Needed,Public,NA
+Colorado State University,CO,Fort Collins,199,Offline,29515,1.0,3.0,97800,Needed,Public,NA
+Colorado State University,CO,Fort Collins,199,Online,24330,1.0,3.0,97800,Needed,Public,NA
+Temple University,PA,Philadelphia,200,Offline,47010,1.5,3.0,95800,Needed,Public,NA
+Oklahoma State University,OK,Stillwater,204,Offline,41370,2.0,3.0,99700,Needed,Public,NA
+Oklahoma State University,OK,Stillwater,204,Online,20175,2.0,3.0,99700,Needed,Public,NA
+California State University-East Bay,CA,Hayward,207,Offline,23436,1.5,2.5,104400,Not Needed,Public,http://www20.csueastbay.edu
+University of Kentucky,KY,Lexington,209,Offline,49842,1.5,3.0,95900,Not Needed,Public,NA
+Loyola University of Maryland,MD,Baltimore,210,Online,27745,2.0,3.0,121600,Not Needed,Private,NA
+University of St. Thomas,MN,Minneapolis,213,Offline,34890,2.0,3.0,113300,Not Needed,Private,http://www.stthomas.edu
+Seton Hall University,NJ,South Orange,215,Online,42030,1.5,3.0,104800,Not Needed,Private,NA
+Ramapo College of New Jersey,NJ,Mahwah,223,Offline,35610,2.0,3.0,97800,Not Needed,Public,NA
+Seattle University,WA,Seattle,225,Offline,41085,2.0,3.0,115700,Not Needed,Private,http://www.seattleu.edu
+DePaul University,IL,Chicago,227,Online,39690,1.5,3.0,108300,Not Needed,Private,http://www.depaul.edu
+University of North Texas,TX,Denton,234,Offline,16488,2.0,3.2,92600,Not Needed,Public,http://www.cob.unt.edu
+Colorado School of Mines,CO,Golden,235,Offline,68070,1.5,3.0,142800,Not Needed,Public,NA
+University of Nevada-Reno,NV,Reno,236,Offline,32182,2.0,3.0,96300,Not Needed,Public,NA
+New College of Florida,FL,Sarasota,237,Offline,44206,2.0,3.0,92500,Not Needed,Public,https://www.ncf.edu
+Georgia State University,GA,Atlanta,241,Offline,45000,1.0,3.0,90900,Not Needed,Public,http://specialized.robinson.gsu.edu
+Pace University,NY,New York City,243,Offline,41250,1.0,3.0,111800,Not Needed,Private,NA
+Pace University,NY,New York City,243,Online,31500,1.0,3.0,111800,Not Needed,Private,NA
+Chapman University,CA,Orange,246,Offline,54095,2.0,3.0,102100,Needed,Private,http://www.chapman.edu
+Adelphi University,NY,Garden City,249,Offline,42600,1.5,3.0,94800,Not Needed,Private,NA
