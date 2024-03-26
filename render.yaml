@@ -1,5 +1,4 @@
 services:
-  - name: web
-    dockerfile: Dockerfile  # Path to your Dockerfile
-    env: python
-    plan: starter
+  - name: CRSystem
+    plan: Free
+    buildCommand: docker build -t crm-system-image .
