@@ -24,7 +24,7 @@ jobs:
       run: render --version
 
     - name: Update PATH for Render CLI
-      run: echo "$HOME/.render" >> $GITHUB_PATH
+      run: echo "export PATH=$HOME/.render:$PATH" >> $GITHUB_ENV
 
     - name: Login to Render
       run: render login --email bvvkarthik1155@gmail.com --password Karthik@1155
