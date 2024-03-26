@@ -1,4 +1,4 @@
 services:
   - name: myapp
     plan: Free
-    buildCommand: docker build -t myapp .
+    buildCommand: docker build -t my-flask-app .
