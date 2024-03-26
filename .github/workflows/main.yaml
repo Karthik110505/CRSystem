@@ -16,6 +16,10 @@ jobs:
     - name: Build Docker image
       run: docker build -t dockerfile -f Dockerfile .
       
+    - name: Install Render CLI
+      run: |
+        curl -sL https://install.render.com/agent.sh | sh
+
     - name: Login to Render
       run: |
         render login --email bvvkarthik1155@gmail.com --password Karthik@1155
