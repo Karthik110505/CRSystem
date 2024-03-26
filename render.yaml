@@ -1,4 +1,4 @@
 services:
   - name: CRSystem
     plan: Free
-    buildCommand: docker build -t crm-system-image .
+    buildCommand: docker build -t my-flask-app .
