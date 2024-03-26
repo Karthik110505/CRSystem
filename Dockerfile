@@ -6,7 +6,12 @@ WORKDIR /app
 
 # Copy the requirements file and install dependencies
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+
+# Install pipenv
+RUN pip install pipenv
+
+# Install dependencies using pipenv
+RUN pipenv install --system --deploy
 
 # Copy the rest of the application code to the container
 COPY . .
