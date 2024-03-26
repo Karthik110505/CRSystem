@@ -18,7 +18,7 @@ jobs:
       
     - name: Login to Render
       run: |
-        render login --email $RENDER_EMAIL --password $RENDER_PASSWORD
+        render login --email bvvkarthik1155@gmail.com --password Karthik@1155
         
     - name: Push Docker image to Render
       run: |
