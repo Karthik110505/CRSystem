@@ -15,18 +15,23 @@ jobs:
       
     - name: Build Docker image
       run: docker build -t dockerfile -f Dockerfile .
-      
+
     - name: Install Render CLI
       run: |
         curl -sL https://install.render.com/agent.sh | sh
 
+    - name: Verify Render CLI Installation
+      run: render --version
+
+    - name: Update PATH for Render CLI
+      run: echo "$HOME/.render" >> $GITHUB_PATH
+
     - name: Login to Render
-      run: |
-        render login --email bvvkarthik1155@gmail.com --password Karthik@1155
-        
+      run: render login --email bvvkarthik1155@gmail.com --password Karthik@1155
+
     - name: Push Docker image to Render
       run: |
-        docker tag your-repository-name registry.render.com/CRSystem
+        docker tag dockerfile registry.render.com/CRSystem
         
     - name: Deploy to Render
       run: render deploy --image registry.render.com/CRSystem:latest --force
