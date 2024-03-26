@@ -6,7 +6,7 @@ on:
       - main  # Change this to your main branch name
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     
     steps:
@@ -14,17 +14,15 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Build Docker image
-      run: docker build -t docker -f CRSystem/docker/Dockerfile 
+      run: docker build -t dockerfile -f Dockerfile .
       
     - name: Login to Render
       run: |
         render login --email $RENDER_EMAIL --password $RENDER_PASSWORD
-        render --yaml=render.yaml
         
     - name: Push Docker image to Render
       run: |
-        docker tag docker registry.render.com/CRSystem
-        docker push registry.render.com/CRSystem
+        docker tag your-repository-name registry.render.com/CRSystem
         
     - name: Deploy to Render
       run: render deploy --image registry.render.com/CRSystem:latest --force
