@@ -1,4 +1,4 @@
 services:
   - name: myapp
     plan: Free
-    buildCommand: docker build -t crsystem   .
+    buildCommand: docker build -t bvvkarthik1155/app   .

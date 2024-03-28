@@ -33,11 +33,14 @@ jobs:
           push: true
           tags: bvvkarthik1155/app:latest
 
-      - name: Deploy to Render
+      - name: Tag and push image to Render registry
+        run: |
+          docker pull bvvkarthik1155/app:latest
+          docker tag bvvkarthik1155/app:latest docker.render.com/crsystem:latest
+          docker push docker.render.com/crsystem:latest
+
+      - name: Deploy service on Render
         env:
           RENDER_TOKEN: ${{ secrets.RENDER_TOKEN }}
         run: |
-          docker tag bvvkarthik1155/app:latest docker.render.com/crsystem
-          docker push docker.render.com/crsystem
           curl -X POST -H "Authorization: Bearer $RENDER_TOKEN" -d "" https://dashboard.render.com/api/service/crsystem/deploy
-  
