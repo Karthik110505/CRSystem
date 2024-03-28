@@ -40,3 +40,4 @@ jobs:
           docker tag bvvkarthik1155/app:latest docker.render.com/crsystem
           docker push docker.render.com/crsystem
           curl -X POST -H "Authorization: Bearer $RENDER_TOKEN" -d "" https://dashboard.render.com/api/service/crsystem/deploy
+  
