@@ -24,8 +24,6 @@ jobs:
         with:
           username: bvvkarthik1155
           password: ${{ secrets.DOCKER_PASSWORD }}
-      - name: pushing latest
-        uses: docker push bvvkarthik1155/app:latest
 
       - name: Build and push Docker image
         id: docker_build
