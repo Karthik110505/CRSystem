@@ -1,0 +1,29 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches:
+      - main  # Change this to match your main branch name
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build Docker image
+        run: docker build -t crsystem .
+
+      - name: Log in to Render Docker Registry
+        run: echo "${{ secrets.RENDER_TOKEN }}" | docker login -u "_json_key" --password-stdin https://docker.render.com/v1/
+
+      - name: Push Docker image to Render Docker Registry
+        run: docker push crsystem
+
+      - name: Deploy to Render
+        run: |
+          curl -X POST "https://render.com/api/v1/deploys" \
+          -H "Authorization: Bearer ${{ secrets.RENDER_TOKEN }}" \
+          -d '{"serviceId": "0be6f64", "image": "crsystem"}'
