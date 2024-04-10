@@ -30,4 +30,4 @@ jobs:
         
       - name: Deploy to Render
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: render up --name crsystem --docker-image bvvkarthik1155/crsystem:latest
+        run: render up -n crsystem --docker-image bvvkarthik1155/crsystem:latest
