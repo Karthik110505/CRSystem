@@ -3,7 +3,7 @@ name: Deploy to Render
 on:
   push:
     branches:
-      - main  # or whichever branch you want to deploy from
+      - main  
 
 jobs:
   deploy:
@@ -23,9 +23,14 @@ jobs:
         push: true
         tags: bvvkarthik1155/crsystem:latest  
     
+    - name: Install Render CLI
+      run: |
+        curl -O https://render.com/static/cli/rendertool_latest_linux_amd64.tar.gz
+        tar -zxvf rendertool_latest_linux_amd64.tar.gz
+        sudo mv rendertool /usr/local/bin/render
+        
+    - name: Configure Render
+      run: render login --token ${{ secrets.RENDER_TOKEN }}
+      
     - name: Deploy to Render
-      uses: renderapp/render-action@1.0.2
-      with:
-        render_token: ${{ secrets.RENDER_TOKEN }}
-        dockerfile: Dockerfile
-        image: bvvkarthik1155/crsystem:latest  
+      run: render up --name crsystem --docker-image bvvkarthik1155/crsystem:latest  # Change this to your app and Docker image name
