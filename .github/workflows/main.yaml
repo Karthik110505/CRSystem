@@ -21,7 +21,7 @@ jobs:
       
     - name: Download Render CLI
       run: |
-        wget -O rendertool_latest_linux_amd64.tar.gz https://render.com/static/cli/rendertool_latest_linux_amd64.tar.gz
+        wget -O rendertool_latest_linux_amd64.tar.gz https://github.com/render-oss/render-cli/releases/download/v0.1.11/render-linux-x86_64
         tar -zxvf rendertool_latest_linux_amd64.tar.gz
         
     - name: Install Render CLI
