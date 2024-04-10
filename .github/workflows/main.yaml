@@ -1,4 +1,4 @@
-# .github/workflows/ci.yml
+# .github/workflows/main.yaml
 
 on:
   pull_request:
@@ -10,17 +10,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12.2'  # Replace '3.x' with your Python version
+        
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Test
         run: |
-          npm install
-          npm run test
+          # Add your test command here if applicable
+          # Example: python -m pytest
 
       - name: Build Docker image
         # Only run this step if the branch is main
         if: github.ref == 'refs/heads/main'
         run: |
           docker build -t bvvkarthik1155/crsystem .
-      
+
       - name: Log in to Docker Hub
         if: github.ref == 'refs/heads/main'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
