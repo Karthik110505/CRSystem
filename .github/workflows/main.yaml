@@ -3,7 +3,7 @@ name: Deploy to Render
 on:
   push:
     branches:
-      - main  # or whichever branch you want to deploy from
+      - main
 
 jobs:
   deploy:
@@ -24,14 +24,10 @@ jobs:
           wget https://github.com/render-oss/render-cli/releases/download/v0.1.11/render-linux-x86_64 -O render
           chmod +x render
         
-    
       - name: Install Render CLI
         run: |
           sudo mv render /usr/local/bin/render
         
-      - name: Configure Render
-        run: render config add-profile bvvkarthik1155@gmail.com --verbose
-      
       - name: Deploy to Render
-        if: ${{ github.ref == 'refs/heads/main' }}  # Add this condition
-        run: render up --name crsystem --docker-image bvvkarthik1155/crsystem:latest  # Change this to your app and Docker image name
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: render up --name crsystem --docker-image bvvkarthik1155/crsystem:latest
