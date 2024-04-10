@@ -24,8 +24,6 @@ jobs:
           wget https://github.com/render-oss/render-cli/releases/download/v0.1.11/render-linux-x86_64 -O render
           chmod +x render
         
-      - name: Copy Render CLI configuration file
-        run: cp /usr/local/bin/render/config ~/.render.yaml
       
       - name: Install Render CLI
         run: |
