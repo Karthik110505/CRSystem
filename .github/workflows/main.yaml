@@ -19,17 +19,13 @@ jobs:
     - name: Log in to Docker Hub
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
       
-    - name: Build and push Docker image
-      uses: docker/build-push-action@v2
-      with:
-        context: .
-        push: true
-        tags: bvvkarthik1155/crsystem:latest  # Change this to your Docker Hub username and app name
-    
+    - name: Download Render CLI
+      run: |
+        wget -O rendertool_latest_linux_amd64.tar.gz https://render.com/static/cli/rendertool_latest_linux_amd64.tar.gz
+        tar -zxvf rendertool_latest_linux_amd64.tar.gz
+        
     - name: Install Render CLI
       run: |
-        curl -O https://render.com/static/cli/rendertool_latest_linux_amd64.tar.gz
-        tar -zxvf rendertool_latest_linux_amd64.tar.gz
         sudo mv rendertool /usr/local/bin/render
         
     - name: Configure Render
