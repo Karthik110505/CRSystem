@@ -24,7 +24,7 @@ jobs:
           wget https://github.com/render-oss/render-cli/releases/download/v0.1.11/render-linux-x86_64 -O render
           chmod +x render
         
-      
+    
       - name: Install Render CLI
         run: |
           sudo mv render /usr/local/bin/render
@@ -33,4 +33,5 @@ jobs:
         run: render config --profile bvvkarthik1155@gmail.com --verbose Karthik@1155
       
       - name: Deploy to Render
+        if: ${{ github.ref == 'refs/heads/main' }}  # Add this condition
         run: render up --name crsystem --docker-image bvvkarthik1155/crsystem:latest  # Change this to your app and Docker image name
