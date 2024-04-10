@@ -26,7 +26,7 @@ jobs:
         
     - name: Install Render CLI
       run: |
-        sudo mv rendertool /usr/local/bin/render
+        sudo mv render /usr/local/bin/render
         
     - name: Configure Render
       run: render login --token ${{ secrets.RENDER_TOKEN }}
