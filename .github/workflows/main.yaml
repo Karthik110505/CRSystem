@@ -21,11 +21,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Test
-        run: |
-          # Add your test command here if applicable
-          # Example: python -m pytest
-
       - name: Build Docker image
         # Only run this step if the branch is main
         if: github.ref == 'refs/heads/main'
