@@ -30,7 +30,7 @@ jobs:
           sudo mv render /usr/local/bin/render
         
       - name: Configure Render
-        run: render config --profile bvvkarthik1155@gmail.com --verbose Karthik@1155
+        run: render config add-profile bvvkarthik1155@gmail.com --verbose
       
       - name: Deploy to Render
         if: ${{ github.ref == 'refs/heads/main' }}  # Add this condition
